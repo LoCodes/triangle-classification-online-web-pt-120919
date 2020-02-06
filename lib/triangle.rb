@@ -13,9 +13,9 @@ class Triangle
     if (side1 * side2 * side3) == 0 || (side1 + side2) <= side3  || (side2 + side3) <= side1 || (side3 + side1) <= side2
       begin
         raise TriangleError
-          puts error.message
-        rescue TriangleError => error
-          puts error.message
+  #        puts error.message
+  #      rescue TriangleError => error
+  #        puts error.message
       end
 
     elsif side1 == side2 && side1 == side3
